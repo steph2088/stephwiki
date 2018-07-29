@@ -8,6 +8,7 @@ templateEnv = jinja2.Environment(loader=templateLoader)
 @application.route('/')
 def index():
   TEMPLATE_FILE = "index.html"
+  template = templateEnv.get_template(TEMPLATE_FILE)
   return template.render()
 
 @application.route('/infos/<path:path>')
