@@ -20,4 +20,4 @@ def send_info(path):
 
 @application.route('/static/<path:path>')
 def send_static(path):
-  return send_from_directory('js', path)
+  return send_from_directory('', path)
