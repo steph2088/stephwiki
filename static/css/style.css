@@ -1,0 +1,19 @@
+@import "footer.css";
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Rokkitt');
+
+
+h1 {
+  font-family: 'Cinzel', serif !important;
+}
+
+h3 {
+  font-family: 'Cinzel', serif !important;
+}
+
+p {
+  font-family: 'Rokkitt', serif;
+}
+
+body {
+  background-color: lightgrey;
+}

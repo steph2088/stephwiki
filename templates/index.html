@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Steph's Wiki Project!</title>
-</head>
-<body>
-  <h1>Steph's Wiki</h1>
+{% extends "base.html" %}
+{% block title %}Give Voice Wiki{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+<h1>Steph's Wiki</h1>
 
-  <p>Welcome to Steph's Wiki. This is a work in progress but we hope to launch by August 25th.</p>
-
-</body>
-</html>
+<p>Welcome to Steph's Wiki. This is a work in progress but we hope to launch by August 25th.</p>
+<ul>
+  <li><a href="infos/china.html">China</a></li>
+  <li><a href="infos/chinamainland.html">China Mainland</a></li>
+  <li><a href="infos/colombia.html">Colombia</a></li>
+  <li><a href="infos/germany.html">Germany</a></li>
+  <li><a href="infos/italy.html">Italy</a></li>
+  <li><a href="infos/japan.html">Japan</a></li>
+  <li><a href="infos/uk.html">United Kingdom</a></li>
+  <li><a href="infos/usa.html">United States</a></li>
+  <li><a href="infos/vietnam.html">Vietnam</a></li>
+</ul>
+{% endblock %}
