@@ -16,10 +16,17 @@ margin-top: 9px;
 margin-bottom: 0px;
 }
 
+h1, h3, h4 {
+  text-align: center;
+}
+
 h1, h3, h4, p {
   font-family: 'Hind', sans-serif;
 }
 
+h4 {
+  margin-bottom: 20px;
+}
 
 p {
   text-indent: 2em;
@@ -35,5 +42,7 @@ a:hover {
 }
 
 ul {
+  padding-left: 0;
+  margin: 0;
   list-style: none;
 }
