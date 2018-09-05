@@ -9,24 +9,15 @@
   {% endblock %}
 </head>
 <body>
-  <div id="container">
+  {% block body %}{% endblock %}
+</body>
+<footer class="footer">
+  <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 ">
-        {% block content %}{% endblock %}
+        <a href="/">Index</a>
       </div>
     </div>
   </div>
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 ">
-
-          {% block footer %}
-          <a href="/">Return to Index</a>
-          {% endblock %}
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
+</footer>
 </html>
