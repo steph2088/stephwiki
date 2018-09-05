@@ -1,6 +1,5 @@
 @import "footer.css";
 @import url('https://fonts.googleapis.com/css?family=Hind');
-@import url('https://fonts.googleapis.com/css?family=Rokkitt');
 
 
 html {
@@ -10,16 +9,31 @@ html {
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
   background-color: lightgrey;
-
 }
 
-h1, h3 {
+h1 {
+margin-top: 9px;
+margin-bottom: 0px;
+}
+
+h1, h3, h4, p {
   font-family: 'Hind', sans-serif;
 }
 
 
 p {
-  font-family: 'Rokkitt', serif;
   text-indent: 2em;
 }
 
+a {
+  color: #40745F;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
