@@ -1,19 +1,25 @@
 @import "footer.css";
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
 
 
-h1 {
-  font-family: 'Cinzel', serif !important;
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+  background-color: lightgrey;
+
 }
 
-h3 {
-  font-family: 'Cinzel', serif !important;
+h1, h3 {
+  font-family: 'Hind', sans-serif;
 }
+
 
 p {
   font-family: 'Rokkitt', serif;
+  text-indent: 2em;
 }
 
-body {
-  background-color: lightgrey;
-}
