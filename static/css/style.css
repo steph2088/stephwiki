@@ -24,12 +24,9 @@ h1, h3, h4, p {
   font-family: 'Hind', sans-serif;
 }
 
-h4 {
-  margin-bottom: 20px;
-}
-
 p {
   text-indent: 2em;
+  text-align: center;
 }
 
 a {
@@ -42,7 +39,21 @@ a:hover {
 }
 
 ul {
-  padding-left: 0;
-  margin: 0;
   list-style: none;
+  text-align: center;
+  position: fixed;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        position: relative;
+    }
+}
+
+.bottom-margined {
+  margin-bottom: 20px;
 }
