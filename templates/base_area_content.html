@@ -1,11 +1,30 @@
 {% extends "base_header_and_footer.html" %}
 
 {% block body %}
-  <div id="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 ">
-        {% block content %}{% endblock %}
-      </div>
+<div id="container">
+  {% block header %}{% endblock %}
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 offset-sm-1 col-md-6 offset-md-2">
+      {% block content %}{% endblock %}
     </div>
+    <div class="col-xs-12 col-sm-3 col-md-3">
+      <ul>
+        <li><a href="/infos/australia.html">Australia</a></li>
+        <li><a href="/infos/austria.html">Austria</a></li>
+        <li><a href="/infos/china.html">China</a></li>
+        <li><a href="/infos/colombia.html">Colombia</a></li>
+        <li><a href="/infos/france.html">France</a></li>
+        <li><a href="/infos/germany.html">Germany</a></li>
+        <li><a href="/infos/italy.html">Italy</a></li>
+        <li><a href="/infos/japan.html">Japan</a></li>
+        <li><a href="/infos/uk.html">United Kingdom</a></li>
+        <li><a href="/infos/usa.html">United States</a></li>
+        <li><a href="/infos/vietnam.html">Vietnam</a></li>
+        <br/>
+        <li><a href="/">Index</a></li>
+      </ul>
+    </div>
+
   </div>
+</div>
 {% endblock %}
