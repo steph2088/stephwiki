@@ -12,8 +12,8 @@ body {
 }
 
 h1 {
-margin-top: 9px;
-margin-bottom: 0px;
+  margin-top: 9px;
+  margin-bottom: 0px;
 }
 
 h1, h3, h4 {
@@ -37,22 +37,23 @@ a:hover {
   font-weight: bold;
 }
 
-ul {
-  list-style: none;
-  text-align: center;
-  position: fixed;
-}
 
 footer {
   text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-    ul {
-        position: relative;
-    }
+  ul {
+    position: relative;
+  }
+}
+.index-list {
+  display: flex; justify-content: center;
 }
 
-.bottom-margined {
-  margin-bottom: 30px;
+ul {
+  list-style: none;
+  text-align: center;
+  position: fixed;
 }
+
